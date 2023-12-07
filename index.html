@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Understanding the Grid System</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="swiper mySwiper">
+            <div class="swiper-pagination"></div>
+            <article class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <h2>
+                        <dotlottie-player
+                            src="https://lottie.host/f44457b1-9ded-413c-9d16-2240feafacb2/hK2n9uIFIQ.json"
+                            background="transparent"
+                            speed="1"
+                            style="display: block"
+                            loop
+                            autoplay
+                        ></dotlottie-player>
+                        to this
+                        <span class="text-highlight">
+                            Knowledge-Sharing Session</span
+                        >
+                        !
+                    </h2>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="flex-col align-center">
+                        <h2 class="title-neg">Let's start this session with</h2>
+                        <dotlottie-player
+                            src="https://lottie.host/9950e938-b118-4480-a40e-af04f6f3acb2/HPVdMjgMop.json"
+                            background="transparent"
+                            speed="1"
+                            style="width: 450px; height: 450px"
+                            loop
+                            autoplay
+                        ></dotlottie-player>
+                    </div>
+                </div>
+
+                <div class="swiper-slide flex-col">
+                    <h2>
+                        Have you ever tried to
+                        <span class="text-highlight"
+                            >customize the <br />
+                            Grid System</span
+                        >
+                        of any Framework or UI library ?
+                    </h2>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="flex-col">
+                        <h3 class="text-secondary title">Title</h3>
+                        <h2>
+                            Reverse Engineering:
+                            <span class="text-highlight"
+                                >Bootstrap Grid-System</span
+                            >
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="flex-col align-start">
+                        <h3 class="text-secondary title">TODO:</h3>
+                        <ol class="lower-alpha">
+                            <li>
+                                Which
+                                <span class="text-highlight">
+                                    layout system</span
+                                >
+                                is used by it
+                            </li>
+                            <li>
+                                How
+                                <span class="text-highlight">it utilizes </span>
+                                that layout system
+                            </li>
+                            <li>
+                                How we can
+                                <span class="text-highlight">
+                                    customize it </span
+                                >further
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="flex-col align-start pl">
+                        <h3 class="text-secondary title">
+                            A. Which
+                            <span class="text-highlight"> layout system</span>
+                            is used by it
+                        </h3>
+                        <ol>
+                            <li>
+                                Bootstrap also utilizes
+                                <span class="text-highlight">
+                                    Flex-GSB & Max-Width
+                                </span>
+                            </li>
+                            <li>
+                                Bootstrap also utilizes
+                                <span class="text-highlight"> Media Query</span>
+                                for Responsive Grid
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="swiper-slide flex-col align-start pl">
+                    <h3 class="mb-sec">Understanding Flex-GSB</h3>
+                    <p class="mb-sec">
+                        What happens under the hood when we use
+                        <span class="text-highlight"> display: flex</span>
+                    </p>
+                    <form class="radio-group">
+                        <input
+                            type="radio"
+                            name="option"
+                            id="option1"
+                            value="option1"
+                            checked
+                        />
+                        <label for="option1">display: flex</label
+                        ><label for="option1" class="text-grey">
+                            | flex: 0 1 auto (default)</label
+                        ><br />
+
+                        <input
+                            type="radio"
+                            name="option"
+                            id="option2"
+                            value="option2"
+                        />
+                        <label for="option2"> flex: 1 1 auto </label><br />
+                        <input
+                            type="radio"
+                            name="option"
+                            id="option3"
+                            value="option3"
+                        />
+                        <label for="option3">
+                            flex-grow:3 to the last-child</label
+                        ><br />
+                        <input
+                            type="radio"
+                            name="option"
+                            id="option4"
+                            value="option4"
+                        />
+                        <label for="option4">
+                            flex: 0 1 1000px to the last-child</label
+                        ><br />
+                        <input
+                            type="radio"
+                            name="option"
+                            id="option5"
+                            value="option5"
+                        />
+                        <label for="option5">
+                            flex: 0 0 1000px to the last-child</label
+                        ><br />
+                    </form>
+                    <div class="parent mt-sec">
+                        <div class="child child-1" contenteditable>Child</div>
+                        <div class="child child-2" contenteditable>
+                            This is some longer content
+                        </div>
+                        <div class="child child-3" contenteditable>Child</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">4$4 N$T F$UND</div>
+                <div class="swiper-slide">
+                    <section class="section-slide section-grid-system flex-col">
+                        <h4 class="text-secondary mb-sec">
+                            Bootstrap-Grid System (Clone)
+                        </h4>
+                        <div class="resizable-row">
+                            <div class="row">
+                                <div class="col-6" contenteditable>
+                                    <h5>Column - 6.1</h5>
+                                </div>
+                                <div class="col-6" contenteditable>
+                                    <h5>Column - 6.2</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resizable-row">
+                            <div class="row">
+                                <div class="col-4" contenteditable>
+                                    <h5>Column - 4</h5>
+                                </div>
+                                <div class="col-8" contenteditable>
+                                    <h5>Column - 8</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3" contenteditable>
+                                <h5>Column - 3.1</h5>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Tempora officia esse
+                                aspernatur qui perspiciatis unde? Nisi explicabo
+                                odio sunt quia?
+                            </div>
+                            <div class="col-3" contenteditable>
+                                <h5>Column - 3.2</h5>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Tempora officia esse
+                                aspernatur qui perspiciatis unde? Nisi explicabo
+                                odio sunt quia?
+                            </div>
+                            <div class="col-3" contenteditable>
+                                <h5>Column - 3.3</h5>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Tempora officia esse
+                                aspernatur qui perspiciatis unde? Nisi explicabo
+                                odio sunt quia?
+                            </div>
+                            <div class="col-3" contenteditable>
+                                <h5>Column - 3.4</h5>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Tempora officia esse
+                                aspernatur qui perspiciatis unde? Nisi explicabo
+                                odio sunt quia?
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2" contenteditable>
+                                <h5>Column - 2.1</h5>
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Sapiente tempore omnis
+                                praesentium, tempora eius quis molestias est
+                                fugit esse debitis?
+
+                                <div class="popover">
+                                    .col-2 { flex: 0 0 16.66%; max-width:
+                                    16.66%; }
+                                </div>
+                            </div>
+                            <div class="col-2 offset-2" contenteditable>
+                                <h5>Column - 2.2</h5>
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Sapiente tempore omnis
+                                praesentium, tempora eius quis molestias est
+                                fugit esse debitis?
+                            </div>
+                            <div class="col-2" contenteditable>
+                                <h5>Column - 2.3</h5>
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Sapiente tempore omnis
+                                praesentium, tempora eius quis molestias est
+                                fugit esse debitis?
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-slide">4$4 N$T F$UND</div>
+
+                <div class="swiper-slide">
+                    <h1>Thank You</h1>
+                </div>
+            </article>
+        </div>
+        <div class="cursor" id="cursor"></div>
+    </body>
+
+    <script
+        src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+        type="module"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/particlesjs@2.2.3/dist/particles.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</html>
